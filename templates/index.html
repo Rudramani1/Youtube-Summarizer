@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Summarizer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Video Summarizer</h1>
+        
+        <!-- Input Card -->
+        <div class="card">
+            <h2>Enter Video URL</h2>
+            <p>Paste a YouTube video URL to generate a summary:</p>
+            <input type="text" id="youtube-url" placeholder="Enter YouTube URL">
+            <button onclick="generateSummary()">Generate Summary</button>
+        </div>
+
+        <!-- Output Card -->
+        <div id="summary-container" class="card hidden">
+            <h2>Summary</h2>
+            <p id="summary-text">Your summary will appear here.</p>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
