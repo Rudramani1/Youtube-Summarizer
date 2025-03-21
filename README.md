@@ -1,5 +1,3 @@
-markdown
-Copy
 # 🎥 YouTube Video Summarizer  
 
 This is a **Flask-based web application** that extracts and summarizes transcripts from YouTube videos using the **YouTube Transcript API** and **Together AI**.
@@ -26,24 +24,30 @@ This is a **Flask-based web application** that extracts and summarizes transcrip
 ```sh
 git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
 cd YOUR-REPO
-###2️⃣ Set Up Virtual Environment
+```
+
+### 2️⃣ Set Up Virtual Environment  
 ```sh
-Copy
 python -m venv venv
 source venv/bin/activate  # macOS/Linux
 venv\Scripts\activate    # Windows
-###3️⃣ Install Dependencies
-```sh
-Copy
-pip install -r requirements/requirements.txt
-###4️⃣ Run the Application
-```sh
-Copy
-python app.py
-Now, open http://127.0.0.1:5000/ in your browser. 🎉
+```
 
-###📂 Project Structure
-Copy
+### 3️⃣ Install Dependencies  
+```sh
+pip install -r requirements/requirements.txt
+```
+
+### 4️⃣ Run the Application  
+```sh
+python app.py
+```
+Now, open `http://127.0.0.1:5000/` in your browser. 🎉
+
+---
+
+## 📂 Project Structure  
+```
 📁 youtube-summarizer
 │── 📁 static          # CSS & JavaScript files  
 │── 📁 templates       # HTML files  
@@ -52,58 +56,74 @@ Copy
 │── .gitignore        # Ignoring unnecessary files  
 │── requirements.txt  # Required Python packages  
 │── README.md         # Project Documentation  
-###📜 .env File (For API Keys)
-If using Together AI or other APIs, create a .env file:
+```
 
-ini
-Copy
+---
+
+## 📜 .env File (For API Keys)  
+If using Together AI or other APIs, create a `.env` file:  
+
+```ini
 TOGETHER_API_KEY=your_api_key
-###🌟 How It Works
-Enter a YouTube video URL in the input field.
+```
 
-Click "Generate Summary".
+---
 
-The app fetches the transcript and summarizes it.
+## 🌟 How It Works  
+1. Enter a YouTube video URL in the input field.  
+2. Click "Generate Summary".  
+3. The app fetches the transcript and summarizes it.  
+4. The summary is displayed in the output card.  
 
-The summary is displayed in the output card.
+---
 
-###🚀 Uploading to GitHub
-Follow these steps to upload your project to GitHub:
+## 🚀 Uploading to GitHub  
+Follow these steps to upload your project to GitHub:  
 
-##1️⃣ Initialize Git
+### 1️⃣ Initialize Git  
 ```sh
-Copy
 git init
-###2️⃣ Create a .gitignore File
-Run the following to ignore unnecessary files:
+```
+
+### 2️⃣ Create a `.gitignore` File  
+Run the following to ignore unnecessary files:  
 
 ```sh
-Copy
 echo "venv/" >> .gitignore
 echo "__pycache__/" >> .gitignore
 echo "*.sqlite3" >> .gitignore
 echo ".env" >> .gitignore
-###3️⃣ Add and Commit Changes
+```
+
+### 3️⃣ Add and Commit Changes  
 ```sh
-Copy
 git add .
 git commit -m "Initial commit"
-###4️⃣ Push to GitHub
-Replace USERNAME and REPO_NAME with your details:
+```
+
+### 4️⃣ Push to GitHub  
+Replace `USERNAME` and `REPO_NAME` with your details:  
 
 ```sh
-Copy
 git remote add origin https://github.com/USERNAME/REPO_NAME.git
 git branch -M main
 git push -u origin main
-💡 Future Enhancements
-✅ Support for multiple languages.
-✅ Option to download the summary.
-✅ Integration with OpenAI/GPT-4 for better summaries.
+```
 
-###Made with ❤️ by [Your Name] 🚀
+---
 
-Copy
+## 💡 Future Enhancements  
+✅ Support for multiple languages.  
+✅ Option to download the summary.  
+✅ Integration with OpenAI/GPT-4 for better summaries.  
+
+---
+
+## 📝 License  
+This project is licensed under the MIT License.  
+
+Made with ❤️ by [Your Name] 🚀  
+```
 
 ---
 
@@ -111,12 +131,11 @@ Copy
 1. Create a `README.md` file in your project folder:  
    ```sh
    touch README.md
-Open the file in a text editor and paste the above content.
-
-Add and commit it to Git:
-
-sh
-Copy
-git add README.md
-git commit -m "Added README"
-git push origin main
+   ```
+2. Open the file in a text editor and paste the above content.
+3. Add and commit it to Git:
+   ```sh
+   git add README.md
+   git commit -m "Added README"
+   git push origin main
+   ```
