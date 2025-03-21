@@ -124,17 +124,3 @@ git push -u origin main
 Made with ❤️ by [Rudra mani upadhyay] 🚀  
 ```
 
----
-
-### **How to Add This to Your Repo**
-1. Create a `README.md` file in your project folder:  
-   ```sh
-   touch README.md
-   ```
-2. Open the file in a text editor and paste the above content.
-3. Add and commit it to Git:
-   ```sh
-   git add README.md
-   git commit -m "Added README"
-   git push origin main
-   ```
